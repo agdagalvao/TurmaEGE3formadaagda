@@ -1,20 +1,29 @@
 body {
     background-color:#1C1C1C;
 }
+.logo{width: 20%;}
+
+.menu{
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin-top:  20px;
+    margin-left: 20px;
+}
 
 .texto-principal {
     margin-right: 20%; 
 }
 
-h1 {
+h1, h2 {
     color: #D3D3D3;
     text-align: center;
+    padding: 7px;
+    font-size: 25px;
 }
-h2 {
-    color: #483D8B;
-}
+
 p {
     color:  #5F9EA0;
+    padding: 5px;
 
 }
 #imagem-principal {
@@ -37,9 +46,7 @@ h1 {
     color: #D3D3D3;
     text-align: center;
 }
-h2 {
-    color: #483D8B;
-}
+
 p {
     color:  #5F9EA0;
 
@@ -56,3 +63,16 @@ p {
 	color: blue;
 	text-decoration: underline;
 }
+
+nav{position:absolute;
+    top: 110px;
+right: 100px;}
+
+nav li{display: inline;
+margin-right: 10px;
+}
+
+nav a{font-size: 22px;
+color: white;
+text-transform: uppercase;
+text-decoration: none;}
